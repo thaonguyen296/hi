@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btnLogin" onAction="#changeLogin" layoutX="118.0" layoutY="59.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="364.0" text="Login" />
+      <Button fx:id="btnRegister" layoutX="118.0" layoutY="133.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="364.0" text="Register" />
+      <Button fx:id="btnListing" layoutX="118.0" layoutY="207.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="364.0" text="List" />
+      <Button fx:id="btnExit" layoutX="118.0" layoutY="282.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="364.0" text="Exit" />
+      <RadioButton fx:id="rdVN" onAction="#changeVN" layoutX="21.0" layoutY="15.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="50.0" text="VI">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdEN" onAction="#changeEN" layoutX="71.0" layoutY="15.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="50.0" text="EN">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </RadioButton>
+   </children>
+</Pane>
